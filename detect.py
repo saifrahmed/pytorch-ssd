@@ -43,6 +43,8 @@ else:
     sys.exit(1)
 
 TEST_IMAGE = "pix/cat1.jpg"
+
+
 orig_image = cv2.imread(TEST_IMAGE)
 
 image = cv2.cvtColor(orig_image, cv2.COLOR_BGR2RGB)
